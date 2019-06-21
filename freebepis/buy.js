@@ -1,3 +1,10 @@
+function wait(ms)
+{
+var d = new Date();
+var d2 = null;
+do { d2 = new Date(); }
+while(d2-d < ms);
+}
 document.write('<a>pissing on bepis</a>')
 document.write('<title>Buying Bepis...</title>')
 wait(4000);
